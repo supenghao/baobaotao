@@ -26,7 +26,7 @@ public class UserDao {
 	
 	public User findUserByUserName(final String userName){
 		//根据用户名查询用户的
-		String sqlStr = "SELECT user_id, user_name.credits "
+		String sqlStr = "SELECT user_id, user_name, credits "
 				+ " FROM t_user WHERE user_name=?";
 		final User user = new User();
 		jdbcTemplate.query(sqlStr, new Object[]{userName},
