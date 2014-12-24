@@ -13,7 +13,7 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 @Entity
 @Cache(usage=CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
 @Table(name="t_board")
-public class Board extends BasicDomain {
+public class Board extends BaseDomain {
 	
 	/**
 	 * 

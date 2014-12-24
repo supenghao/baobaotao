@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import org.apache.commons.lang.builder.ToStringBuilder;
 
-public class BasicDomain implements Serializable {
+public class BaseDomain implements Serializable {
 
 	/**
 	 * 
